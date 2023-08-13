@@ -40,7 +40,7 @@ const config = {
         },
         {
           from: `target/${buildTarget}`,
-          filter: (path) => !path.includes('index.html')
+          filter: (path) => !path.includes(`index.html`)
         }
       ]
     }),
